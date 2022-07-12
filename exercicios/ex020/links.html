@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=The+Nautigal&display=swap');
+
+        body{
+          font-size: 1.6em;
+
+        }
+        h1{
+            font-family: 'Bebas Neue', cursive, Arial, Helvetica, sans-serif;
+            font-size: 2.3em;
+            text-align: center;
+        }
+        ul{
+            margin: auto;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: none;
+        
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: blue;
+            text-shadow: 0.65px 0.65px 0px rgb(3, 3, 121);
+        }
+        
+
+        .especial::after{
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: bolder;
+            color: red;
+        }
+        .especial::before{
+            content: ' ☛ ';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <div>
+  
+        <ul>
+            <a href="#" ><li class="especial">Repositório Github</a>
+            <a href="#" ><li class="especial">Canal do Youtube</a>
+            <a href="#" ><li class="especial">Site do Curso em Vídeo</a>
+        </ul>
+    </div>
+</body>
+</html>

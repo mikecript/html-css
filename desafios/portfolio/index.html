@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="shortcut icon" href="favicon_io/favicon-32x32.png" type="image/x-icon">
+    <style>
+
+        *{
+        
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        :root{
+            --corfundo01: #6678FF;
+            --corfundo02: #4754bb;
+        }
+
+        @font-face {
+            font-family: 'caligrafia';
+            src: url('fonts/Magiera\ Script.ttf') format('truetype');
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+
+        }
+        header{
+            background-image: linear-gradient(to top, var(--corfundo01), var(--corfundo02));
+            padding: 25px;
+            box-shadow: 1px 1px 1.5px #00000079;
+            border-radius: 0px 15px 15px 0px;
+            
+        }
+
+        section{
+            margin: auto;
+            background-color: white;
+            box-shadow: 1px 1px 1.5px #00000079;
+            padding: 20px;
+            
+        }
+
+        #perfil{
+            border: 0.2px solid black;
+            box-shadow: 1px 1px 1.5px #00000079;
+            border-radius: 50%;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        #lampada{
+            display: inline-block;
+            height: 300px;
+            margin: -272px 10px 10px 525px;
+        }
+
+       .titulo{
+           font-size: 1.85em;
+           font-weight: bold;
+            
+            
+        }
+
+        .titulo::after{
+            content: ' - 18';
+        }
+
+        #complemento{
+            font-size: 1em;
+            font-weight: bolder;
+            margin: 5px 10px 10px 170px;
+            
+            
+        }
+
+       #vantagens{
+
+        box-shadow: 1px 1px 1.5px #00000079;
+        padding: 20px 0;
+        display: block;
+        background-color: rgba(0, 0, 0, 0.699);
+
+       }
+
+
+
+
+
+       #vantagens > h1{
+        color: white;
+        padding: 15px;
+        text-shadow: 1px 1px 0.25px rgba(0, 0, 0, 0.301);
+        font-size: 2em;
+        font-weight: normal;
+        font-family: 'caligrafia', Arial, Helvetica, sans-serif;
+    }
+
+       ul{
+        width: 400px;
+        background-color: rgba(255, 255, 255, 0.719);
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.315);
+        padding: 10px;
+        margin: 25px;
+        border-radius: 4px;
+       }
+       li{
+
+        display: block;
+        margin: 30px auto 30px auto;
+        font-weight: normal;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.55em;
+        text-shadow: 0.5px 0.5px 0px rgba(0, 0, 0, 0.671);
+        padding: 5px;
+       }
+
+
+       .checkbox{
+        width: 20px;
+        height: 20px;
+        padding: 0.8px;
+       }
+   
+    </style>
+</head>
+<body>
+    <header>
+        <section>
+            <a href="#"><img src="images/sem-foto170px.png" alt="" id="perfil"></a>
+            <h1 class="titulo">Maicol Santos</h1>
+            <h2 id="complemento">Web Developer</h1>
+                <img src="images/lampada-ideias-full.png" alt="" id="lampada">
+        </section>
+
+        
+       <article id="vantagens">
+        <h1>Vantagens de me Contratar:</h1>
+        <ul>
+            <li>Aplicação dos fundamentos do design.<img src="images/check-40px.png" alt="" class="checkbox">
+
+            <li>Ideias inovadoras/criativas. <img src="images/check-40px.png" alt="" class="checkbox">
+
+            <li>Entendimento de TI(tecnologia da informação) básica. <img src="images/check-40px.png" alt="" class="checkbox">
+
+            <li>Aplicação sêmantica <img src="images/check-40px.png" alt="" class="checkbox">
+
+        </ul>
+        
+       </article>
+       <section>
+        <h1>eu</h1>
+       </section>
+    </header>
+
+    <main></main>
+
+    <footer></footer>
+</body>
+</html>
