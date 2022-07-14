@@ -13,10 +13,16 @@
         }
 
        :root{
-
         --fonteconteudo: 'Edu NSW ACT Foundation', cursive, Arial, Helvetica, sans-serif;
+
         --fontetitulo: 'Koulen', cursive, Arial, Helvetica, sans-serif ;
+
        }
+
+       html, body{
+        min-height: 100vh;
+       }
+
 
         header{
             background-color: black;
@@ -143,8 +149,8 @@
         color: white;
     }
 
-     a:hover{
-        font-weight: bolder;
+    footer a:hover{
+        font-weight: 900;
         text-decoration: underline white;
         
     }
