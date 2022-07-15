@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aprendendo sobre tabelas</title>
+    <title>Tabela02</title>
     <style>
-        body{
+         body{
             font-family: Arial, Helvetica, sans-serif;
             font-weight: bold;
             text-align: center;
@@ -14,22 +14,26 @@
         }
 
         table{
-            width: 400px;
-            line-height: 2em;
+            width: 600px;
+            height: 600px;
             margin: 30px auto 10px auto;
             border-collapse: collapse;
             border-radius: 2px;
             box-shadow: 1.8px 1.8px .5px #00000033;
         }
 
-        .linha{
-            background-color: rgba(0, 0, 0, 0.219);
-        }
+       
 
         td{
             
             border: 1px solid black;
            padding: 10px;
+           text-align: center;
+           vertical-align: bottom;
+        }
+
+        .numero{
+            text-align: right;
         }
     </style>
 </head>
@@ -53,13 +57,13 @@
             <tr class="linha"> <!---SEGUNDA LINHA-->
                 <td>A2</td>
                 <td>B2</td>
-                <td>C2</td>
+                <td class="numero">C2</td>
             </tr>
 
             <tr>              <!---TERCEIRA LINHA-->
                 <td>A3</td>
                 <td>B3</td>
-                <td>C3</td>
+                <td class="numero">C3</td>
             </tr>
 
             <tr class="linha"> <!--QUARTA LINHA-->
