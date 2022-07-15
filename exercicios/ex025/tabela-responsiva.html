@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        table{
+            border: 1px solid black;
+            width: 700px;
+            border-collapse: collapse;
+            text-align: center;
+           
+        }
+
+        tr>th{
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        th:nth-child(odd){
+            text-shadow: 1px 1px .5px black;
+            color: white;
+            background: #808080;
+        }
+
+        tbody td{
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        tbody td:nth-child(odd){
+            text-shadow: 1px 1px .5px black;
+            color: white;
+            background: #808080;
+        }
+
+        #container{
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolor quia est nobis porro maiores impedit amet repellat, cupiditate aliquam. Necessitatibus ullam vero, accusamus laborum nemo quibusdam nam veniam nostrum?</p>
+
+    <div id="container">
+        <table>
+            <caption>Tabelas Responsívas</caption>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Agos</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Notebook</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>8</td>
+                    <td>2</td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>7</td>
+                    <td>4</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>Teclado</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>8</td>
+                    <td>2</td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>7</td>
+                    <td>4</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>Mouse</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>8</td>
+                    <td>2</td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>7</td>
+                    <td>4</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>PC</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>8</td>
+                    <td>2</td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>7</td>
+                    <td>4</td>
+                    <td>15</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
