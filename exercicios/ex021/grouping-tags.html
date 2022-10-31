@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, #2121c4,#1a1a9b,#111169);
+            margin: 0px;
+
+        }
+        header{
+            width: 400px;
+            background-color: white;
+            margin: 10px auto 40px auto;
+            padding: 8px;
+            box-shadow: 1px 1px 0px black;
+            text-align: center;
+            border-radius: 5px 20px 5px 20px;
+        }
+        
+
+        nav.menu{
+            font-size: 3em;
+            color: black;
+            padding: 5px;
+        }
+
+        li{
+            margin: 10px auto 10px auto;
+            display: block;
+        }
+
+        li > a{
+            margin: auto;
+            text-decoration: none;
+            display: inline;
+            color: black;
+            background-color:  white;
+            font-weight: bold;
+            
+        }
+        
+        li:hover > a{
+            color: white;
+            background-color: rgb(0, 0, 0) ;
+            background-origin: 1;
+            text-decoration: underline;
+            font-weight: bold;
+            padding: 5px;
+            border-radius: 10px;
+            
+        }
+
+
+        main{
+            background-color: white;
+            padding: 10px;
+            box-shadow: 1px 1px 0px black;
+            border-radius: 5px 20px 5px 20px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border-radius: 5px 20px 5px 20px;
+            margin: 0px;
+        }
+        article{
+            margin: auto;
+        }
+       article > img{
+        width: 200px;
+        height: 200px;
+       }
+    </style>
+</head>
+<body>
+      <header>
+        <nav class="menu">
+            <h1>Mike Teste</h1>
+            <ul>
+        <li><a href="#" >Home</a>
+        <li><a href="#" >Contato</a>
+        <li><a href="#" >Especificações</a>
+        <li><a href="#" >Sobre Nós</a>
+        <li><a href="#" >Empresa</a>
+        </ul>
+        </nav>
+      </header>
+      <main>
+        <section id="assuntos">
+            <h2>Assuntos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsam minima labore quod ex quae omnis aut eum rem laborum, earum quibusdam praesentium, cum dolore! Facere sapiente fugit unde ipsum!</p>
+        
+        
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia impedit repellendus amet nobis, iure obcaecati, ducimus et quas recusandae eum maxime expedita esse quod? Consectetur autem iusto praesentium suscipit delectus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis excepturi numquam aliquam corporis fuga itaque delectus tenetur expedita repellendus dolor enim quam dicta nesciunt, vitae porro nam officia nulla! Deserunt?</p>
+
+                <img src="impossivel.jpg" alt="">
+            </article>
+        </section>
+      </main>
+
+      <footer id="rodape">
+        <p>desenvolvido por mike</p>
+      </footer>
+</body>
+</html>

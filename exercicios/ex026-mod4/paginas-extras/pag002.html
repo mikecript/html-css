@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <style>
+        body{
+            background-color: rgba(238, 130, 238, 0.582);
+        }
+
+        div#janela-form{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <a href="#" onclick="clicou()" >Clique em Mim!</a>
+    <a href="#" onmouseenter="entrou()"> Janela</a>
+    <div id="saida"></div>
+    <div id="janela"></div>
+
+
+    <script>
+        function clicou() {
+            saida = window.document.getElementById('saida')
+            saida.innerHTML += '<p> você clicou</p>' 
+        }
+
+        function entrou() {
+            j = window.document.getElementById('janela')
+            j.innerHTML = '<div id="janela-form"><ul><li><a href="#">Home <li><a href="#">Entre em contato <li><a href="#">Feitos</ul></div>'
+
+                
+        }
+    </script>
+</body>
+</html>

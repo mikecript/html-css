@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            display: grid;
+            align-items: center;
+            height: 95vh;
+            font-family: sans-serif;
+            font-size: 300%;
+            place-items: center;
+        }
+
+        .titulo{
+            overflow: hidden;
+            position: relative;
+        }
+
+        .titulo::after{
+            animation: text-reveal 1s cubic-bezier(0.85,0,0.15,1) forwards;
+            background-color: darkgrey;
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+
+        }
+
+        h1{
+            animation: fade 1ms 0.5s forwards;
+            opacity: 0;
+        }
+
+        @keyframes text-reveal {
+            from{
+                transform: translateX(-101%);
+            }
+
+            to{
+                transform: translateX(101%);
+            }
+        }
+
+        @keyframes fade {
+            to{
+                opacity: 1;
+            }
+        }
+
+     
+    </style>
+</head>
+<body>
+    <div class="titulo">
+    <h1>Olá,Mundo</h1>
+    </div>
+
+</body>
+</html>

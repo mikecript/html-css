@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=The+Nautigal&display=swap');
+
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+div{
+    background-color: rgb(24, 36, 143);
+    padding: 0.6px;
+    border-radius: 5px;
+    width: 800px;
+    margin: auto;
+    box-shadow: 1.2px 1px 0px rgb(1, 2, 12);
+}
+
+h1{
+    color: rgb(59, 59, 226);
+    font-size: 2.5em;
+    font-style: italic;
+    text-shadow: 1px 1.3px 0px black;
+    text-decoration: underline;
+}
+
+h1#titulo{
+    font-family: 'Bebas Neue', cursive;
+    color: #c20554;
+    text-decoration: underline black;
+    text-shadow: 1.3p 1.3px 0px #520123;
+    font-size: 3.5em;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+
+
+h1.principal{
+    font-size: 2.2em;
+}
+
+h2.basico{
+    color: #14aa14;
+    text-shadow: 1.3px 1.3px 0px #034103;
+}
+h2.intermediario{
+    color: #a8a804;
+    text-shadow: 1.3px 1.3px 0px #3b3b01;
+}
+h2.avancado{
+    color: #8b0303;
+    text-shadow: 1.3px 1.3px 0px #380000;
+}
+
+a.redirecionamento{
+    background-color: rgba(114, 109, 109, 0.493);
+    padding: 1px;
+}

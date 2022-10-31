@@ -1,0 +1,31 @@
+body{
+
+    animation: gradient 4s ease-in-out infinite alternate;
+    background: linear-gradient(-45deg, #f38af7c4 , #f26bf7c4, #3f7ff7d8,#206bf5d7) no-repeat;
+    background-size: 300% 300%;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100vh;
+    font-size: 200%;
+}
+
+h1{
+    text-shadow: 4px 4px 1px #00000044;
+}
+
+@keyframes gradient {
+    0%{
+        background-position: 0 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0 100%;
+    }
+}

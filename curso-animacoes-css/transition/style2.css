@@ -1,0 +1,17 @@
+
+
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    margin: auto;
+    transition-property: background-color, border-radius;
+    transition-duration: 2s, 1.5s;
+    transition-delay: 5ms;
+    transition-timing-function: cubic-bezier(.15,.89,.85,.26);
+}
+
+.box:hover{
+    background-color: orange;
+    border-radius: 50%;
+}
